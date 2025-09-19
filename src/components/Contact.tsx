@@ -53,7 +53,7 @@ const Contact = () => {
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-12">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 overflow-x-hidden">
           {/* Contact Form */}
           <Card className="card-hover border-0">
             <CardHeader>
@@ -63,7 +63,7 @@ const Contact = () => {
               <form
                 action="https://api.web3forms.com/submit"
                 method="POST"
-                className="flex flex-col space-y-4 w-full max-w-sm mx-auto px-4"
+                className="flex flex-col space-y-4 w-full max-w-sm mx-auto px-2 sm:px-4"
               >
                 {/* Web3Forms Access Key */}
                 <input
