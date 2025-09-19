@@ -9,7 +9,7 @@ const Projects = () => {
       title: 'House Price Prediction',
       description:
         'A machine learning project that predicts house prices based on various features such as location, size, and amenities.',
-      image: '../public/house-price.jpg',
+      image: '/house-price.jpg',
       technologies: ['Python', 'Pandas', 'Scikit-Learn', 'Matplotlib'],
       liveUrl: '#',
       githubUrl: 'https://github.com/Abhishek28Sharma/House-Price-Detection',
