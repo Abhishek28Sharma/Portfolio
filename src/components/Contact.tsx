@@ -63,7 +63,7 @@ const Contact = () => {
               <form
                 action="https://api.web3forms.com/submit"
                 method="POST"
-                className="flex flex-col space-y-4"
+                className="flex flex-col space-y-4 w-full max-w-sm mx-auto px-4"
               >
                 {/* Web3Forms Access Key */}
                 <input
