@@ -33,6 +33,36 @@ const Projects = () => {
       githubUrl: 'https://github.com/Abhishek28Sharma/fraud-detection',
     },
     {
+      title: 'Resume-Reviewer',
+      description: `This project is a Streamlit application that reviews resumes using Google Gemini (Generative AI) and LangChain.
+Users can upload their resume in .docx format, and the app provides structured feedback.`,
+      image: '/resume_analyzer.png',
+      technologies: [
+        'streamlit',
+        'python-docx',
+        'langchain',
+        'langchain-google-genai',
+      ],
+      liveUrl: 'https://resume-review-65pi.onrender.com/',
+      githubUrl: 'https://github.com/Abhishek28Sharma/Resume-Reviewer',
+    },
+
+    {
+      title: 'CSV Summarizer',
+      description: `This is a Streamlit application that summarizes insights from CSV files using Google Gemini (Generative AI) and LangChain.
+Upload a CSV file, and the app will generate clear and concise insights in bullet points.`,
+      image: '/csv_summarizer.png',
+      technologies: [
+        'streamlit',
+        'pandas',
+        'langchain',
+        'langchain-google-genai',
+      ],
+      liveUrl: 'https://csv-summarizer.onrender.com/',
+      githubUrl: 'https://github.com/Abhishek28Sharma/csv-summarizer',
+    },
+
+    {
       title: 'GlobeFacts',
       description:
         'A responsive weather dashboard that displays current weather conditions and forecasts for multiple cities with interactive charts and maps.',
